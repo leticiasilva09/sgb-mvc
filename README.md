@@ -42,7 +42,7 @@ Esse é um sistema de biblioteca simples com:
 
    Feito isso vá na barra de pesquisa do Google e digite:
 
-   http://localhost:3000/
+   http://localhost:3000
 
    Se tudo der certo o sistema irá abrir
 
