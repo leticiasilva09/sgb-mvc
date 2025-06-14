@@ -38,7 +38,7 @@ Esse é um sistema de biblioteca simples com:
 
    - Depois, digite:
 
-   - node server.js (isso irá fazer iniciar o servidor, abrindo um localhost)
+   - node server.js (isso irá iniciar o servidor, abrindo um localhost)
 
    - Feito isso vá na barra de pesquisa do Google e digite:
 
