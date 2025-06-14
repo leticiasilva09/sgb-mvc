@@ -81,6 +81,6 @@ Esse é um sistema de biblioteca simples com:
 │   └── usuarios.js
 ```
 
-  6. **Observação**
+  6. **Observações**
 - A pasta node_modules não está incluída no repositório, pois o github não aceita por padrão. Mas ela será criada automaticamente no projeto ao rodar npm install.
 - Já deixamos alguns dados cadastrados no banco de dados para facilitar (livros e um usuário).
