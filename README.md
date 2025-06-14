@@ -32,19 +32,19 @@ Esse é um sistema de biblioteca simples com:
 
 4. **Instale as dependências**
 
-   No terminal, digite: 
+   - No terminal, digite: 
 
-   npm install (irá instalar as dependências do node.js)
+   - npm install (irá instalar as dependências do node.js)
 
-   Depois, digite:
+   - Depois, digite:
 
-   node server.js (isso irá fazer iniciar o servidor, abrindo um localhost)
+   - node server.js (isso irá fazer iniciar o servidor, abrindo um localhost)
 
-   Feito isso vá na barra de pesquisa do Google e digite:
+   - Feito isso vá na barra de pesquisa do Google e digite:
 
-   localhost:3000
+   - localhost:3000
 
-   Se tudo der certo o sistema irá abrir
+   - Se tudo der certo o sistema irá abrir
 
 5. **Estrutura do Projeto**
 
