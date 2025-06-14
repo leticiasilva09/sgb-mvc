@@ -69,7 +69,7 @@ Esse é um sistema de biblioteca simples com:
 │   ├── livro.js
 │   └── usuario.js
 │
-├── public/                 # Frontend (essa pasta cumpre a função da View no sistema MVC)
+├── public/                 # Frontend (essa pasta cumpre a função da Views no sistema MVC)
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
