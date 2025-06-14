@@ -48,7 +48,38 @@ Esse é um sistema de biblioteca simples com:
 
 5. **Estrutura do Projeto**
 
-<pre> ```text / SistemaBiblioteca_MVC │ ├── server.js # Arquivo principal do backend ├── limparDados.js # Script para apagar todos os dados cadastrados no banco de dados (para facilitar testes) ├── meubanco.db # Banco de dados SQLite ├── package.json # Lista de dependências ├── package-lock.json # Detalhes das versões instaladas │ ├── controllers/ # Lógica dos controllers (MVC) │ ├── emprestimosController.js │ ├── livrosController.js │ └── usuariosController.js │ ├── db/ # Conexão com o banco de dados │ └── db.js │ ├── models/ # Models (MVC) │ ├── livro.js │ └── usuario.js │ ├── public/ # Frontend (essa pasta cumpre a função da View no sistema MVC) │ ├── index.html │ ├── style.css │ └── script.js │ ├── routes/ # Rotas da aplicação (MVC) │ ├── devolucoes.js │ ├── emprestimos.js │ ├── livros.js │ └── usuarios.js ``` </pre>
+```
+/ SistemaBiblioteca_MVC
+│
+├── server.js               # Arquivo principal do backend
+├── limparDados.js          # Script para apagar todos os dados cadastrados no banco de dados (para facilitar testes)
+├── meubanco.db             # Banco de dados SQLite
+├── package.json            # Lista de dependências
+├── package-lock.json       # Detalhes das versões instaladas
+│
+├── controllers/            # Lógica dos controllers (MVC)
+│   ├── emprestimosController.js
+│   ├── livrosController.js
+│   └── usuariosController.js
+│
+├── db/                     # Conexão com o banco de dados
+│   └── db.js
+│
+├── models/                 # Models (MVC)
+│   ├── livro.js
+│   └── usuario.js
+│
+├── public/                 # Frontend (essa pasta cumpre a função da View no sistema MVC)
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── routes/                 # Rotas da aplicação (MVC)
+│   ├── devolucoes.js
+│   ├── emprestimos.js
+│   ├── livros.js
+│   └── usuarios.js
+```
 
   6. **Observação**
 - A pasta node_modules não está incluída no repositório, pois o github não aceita por padrão. Mas ela será criada automaticamente no projeto ao rodar npm install.
