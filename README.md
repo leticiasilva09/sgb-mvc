@@ -40,7 +40,7 @@ Esse é um sistema de biblioteca simples com:
 
    - **node server.js** (isso irá iniciar o servidor, abrindo um localhost)
 
-   - Feito isso vá na barra de pesquisa do Google e digite: **localhost:3000**
+   - Feito isso, vá na barra de pesquisa do Google e digite: **localhost:3000**
 
    - Se tudo der certo o sistema irá abrir
 
