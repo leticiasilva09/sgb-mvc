@@ -34,22 +34,20 @@ Esse é um sistema de biblioteca simples com:
 
    - No terminal, digite: 
 
-   - npm install (irá instalar as dependências do node.js)
+   - **npm install** (aguarde um pouco e será instalado as dependências do node.js)
 
    - Depois, digite:
 
-   - node server.js (isso irá iniciar o servidor, abrindo um localhost)
+   - **node server.js** (isso irá iniciar o servidor, abrindo um localhost)
 
-   - Feito isso vá na barra de pesquisa do Google e digite:
-
-   - localhost:3000
+   - Feito isso vá na barra de pesquisa do Google e digite: **localhost:3000**
 
    - Se tudo der certo o sistema irá abrir
 
 5. **Estrutura do Projeto**
 
 ```
-/ SistemaBiblioteca_MVC
+/ sgb-mvc-main
 │
 ├── server.js               # Arquivo principal do backend
 ├── limparDados.js          # Script para apagar todos os dados cadastrados no banco de dados (para facilitar testes)
@@ -69,7 +67,7 @@ Esse é um sistema de biblioteca simples com:
 │   ├── livro.js
 │   └── usuario.js
 │
-├── public/                 # Frontend (essa pasta cumpre a função da Views no sistema MVC)
+├── public/                 # Frontend (essa pasta cumpre a função da pasta Views no sistema MVC)
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
