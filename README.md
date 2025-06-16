@@ -86,6 +86,6 @@ Esse é um sistema de biblioteca simples com:
     
 - Basta adicionar uma data de atraso no formato AAAA-MM-DD dentro dos parênteses vazios.
   
-  - **Ex:** `const hoje = new Date('2025-08-16');`.
+  - **Ex:** `const hoje = new Date('2025-08-11');`.
    
 - Feito isso basta salvar e recarregar o localhost, agora irá aparecer as informações mostrando o usuário em atraso.
