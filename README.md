@@ -40,7 +40,22 @@ Esse é um sistema de biblioteca simples com:
 
    - Se tudo der certo o sistema irá abrir
 
-5. **Estrutura do Projeto**
+5. **Observações**
+- A pasta `node_modules` não está incluída no repositório, pois o github não aceita por padrão. Mas ela será criada automaticamente no projeto ao rodar `npm install`.
+
+- Já deixamos alguns dados cadastrados no banco de dados para facilitar (livros e um usuário).
+  
+- Se não tiver nenhum usuário atrasado é possível "simular" um atraso. Na linha 312 do arquivo `script.js` tem o seguinte código:
+  
+  - `const hoje = new Date();`.
+    
+- Basta adicionar uma data de atraso no formato AAAA-MM-DD dentro dos parênteses vazios.
+  
+  - **Ex:** `const hoje = new Date('2025-08-11');`.
+   
+- Feito isso basta salvar e recarregar o localhost, agora irá aparecer as informações mostrando o usuário em atraso.
+
+6. **Estrutura do Projeto**
 
 ```
 / sgb-mvc-main
@@ -74,18 +89,3 @@ Esse é um sistema de biblioteca simples com:
 │   ├── livros.js
 │   └── usuarios.js
 ```
-
-  6. **Observações**
-- A pasta `node_modules` não está incluída no repositório, pois o github não aceita por padrão. Mas ela será criada automaticamente no projeto ao rodar `npm install`.
-
-- Já deixamos alguns dados cadastrados no banco de dados para facilitar (livros e um usuário).
-  
-- Se não tiver nenhum usuário atrasado é possível "simular" um atraso. Na linha 312 do arquivo `script.js` tem o seguinte código:
-  
-  - `const hoje = new Date();`.
-    
-- Basta adicionar uma data de atraso no formato AAAA-MM-DD dentro dos parênteses vazios.
-  
-  - **Ex:** `const hoje = new Date('2025-08-11');`.
-   
-- Feito isso basta salvar e recarregar o localhost, agora irá aparecer as informações mostrando o usuário em atraso.
